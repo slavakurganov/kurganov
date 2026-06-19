@@ -33,7 +33,7 @@ namespace ReportsCreator
                 text += $"Год: {now.Year}\n";
                 text += $"Месяц: {now.Month:00}\n";
                 text += "----------------------------------------\n";
-                text += "Структура создана успешно!";
+                text += "Структура папок создана успешно!";
 
                 File.WriteAllText(reportPath, text);
                 Console.WriteLine($"[OK] Отчет сохранен: {reportPath}");
