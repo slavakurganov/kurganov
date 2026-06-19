@@ -7,7 +7,7 @@ namespace ReportsCreator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("=== СОЗДАНИЕ СТРУКТУРЫ ПАПОК ===");
+            Console.WriteLine("=== УТИЛИТА СОЗДАНИЯ ПАПОК Reports ===");
             Console.WriteLine();
 
             DateTime now = DateTime.Now;
