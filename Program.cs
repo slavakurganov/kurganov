@@ -39,7 +39,7 @@ namespace ReportsCreator
                 Console.WriteLine($"[OK] Отчет сохранен: {reportPath}");
                 Console.WriteLine();
 
-                Console.WriteLine("=== ДЕРЕВО ПАПОК ===");
+                Console.WriteLine("=== ДЕРЕВО КАТОЛОГОВ ===");
                 Console.WriteLine();
 
                 if (Directory.Exists(baseDir))
